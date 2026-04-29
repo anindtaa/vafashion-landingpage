@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff0f3;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+}
+
+.logo {
+  color: #e75480;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.logo span {
+  display: block;
+  font-size: 12px;
+  color: #999;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #666;
+  text-decoration: none;
+}
+
+nav .active {
+  color: #e75480;
+  font-weight: 600;
+}
+
+.btn-wa {
+  background: #ff6b8a;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  background: linear-gradient(to right, #ffe4ec, #fff);
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-img {
+  width: 380px;
+}
+
+.label {
+  background: #ffd1dc;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin: 20px 0;
+}
+
+.hero span {
+  color: #e75480;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* BUTTON */
+.btn {
+  background: #ff6b8a;
+  color: #fff;
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-outline {
+  border: 1px solid #ff6b8a;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+/* FITUR */
+.fitur {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* PRODUK */
+.produk {
+  text-align: center;
+  padding: 50px;
+}
+
+.subtitle {
+  color: #e75480;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card .btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* KEUNGGULAN */
+.keunggulan {
+  text-align: center;
+  padding: 50px;
+}
+
+.grid2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* TESTI */
+.testi-promo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background: #ffe4ec;
+}
+
+.box {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* ORDER */
+.order {
+  text-align: center;
+  padding: 50px;
+}
+
+form input,
+textarea {
+  width: 80%;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.full {
+  width: 80%;
+}
+
+/* FLOAT WA */
+.floating {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  background: #e75480;
+  color: #fff;
+  padding: 40px;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ig-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ig-link:hover {
+  text-decoration: underline;
+  color: #ffd1dc;
+}
